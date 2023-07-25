@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cesar's Portfolio - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hello, I'm Cesar</h1>
+        <p>I'm a passionate web developer based in Laguna, Philippines. Welcome to my portfolio website, where I showcase my projects and skills.</p>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Featured Projects</h2>
+      <div class="project">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>This is a description of Project 1. It involved building a responsive website using HTML, CSS, and JavaScript. I implemented various animations and interactive elements to enhance user experience.</p>
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Project 2 was an e-commerce website developed with React.js. It featured a user-friendly interface, product filtering, and a shopping cart functionality with payment integration.</p>
+      </div>
+      <!-- Add more projects here -->
+    </section>
+
+    <section class="contact">
+      <h2>Get in Touch</h2>
+      <p>If you have any questions or would like to discuss a project, feel free to get in touch with me using the contact form below.</p>
+      <form action="#" method="POST" id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+ <section class="cv-download">
+      <h2>Download My CV</h2>
+      <p>If you want to learn more about my work experience and skills, you can download my CV by clicking the button below:</p>
+      <a href="cesar_cv.pdf" download class="cv-button">Download CV</a>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
